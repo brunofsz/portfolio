@@ -1,6 +1,8 @@
 .projectsContainer {
   padding: 5rem 0 3rem;
   min-height: 100vh;
+  max-width: 90vw;
+  margin: auto;
 }
 
 .projectsTitle {

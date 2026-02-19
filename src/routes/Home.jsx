@@ -26,7 +26,7 @@ const Home = () => {
                 <motion.div className="divImg" whileTap={{ scale: 0.8 }} initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}>
-                    <img src="/brunoSouza.jpeg" alt="Foto de Bruno Souza" />
+                    <img src="/fotoBrunoFsz.jpeg" alt="Foto de Bruno Souza" />
                 </motion.div>
             </div>
 
