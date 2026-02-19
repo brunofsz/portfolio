@@ -30,12 +30,12 @@ const skills = [
     { name: 'TypeScript', proficiency: 65, color: '#3178c6', icon: <SiTypescript /> },
     { name: 'React', proficiency: 79, color: '#61dbfb', icon: <SiReact /> },
     { name: 'Node.js', proficiency: 75, color: '#68a063', icon: <SiNodedotjs /> },
-    { name: 'PHP', proficiency: 65, color: '#777bb4', icon: <SiPhp /> },
-    { name: 'C', proficiency: 65, color: '#a8b9cc', icon: <SiC /> },
-    { name: 'Python', proficiency: 65, color: '#3776ab', icon: <SiPython /> },
+    { name: 'Python', proficiency: 55, color: '#3776ab', icon: <SiPython /> },
     { name: 'Git', proficiency: 70, color: '#f05032', icon: <SiGit /> },
     { name: 'PostgreSQL', proficiency: 77, color: '#336791', icon: <SiPostgresql /> },
     { name: 'MongoDB', proficiency: 77, color: '#4db33d', icon: <SiMongodb /> },
+    { name: 'PHP', proficiency: 30, color: '#777bb4', icon: <SiPhp /> },
+    { name: 'C', proficiency: 30, color: '#a8b9cc', icon: <SiC /> },
 
 ];
 

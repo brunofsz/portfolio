@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import './App.css'
 import Navbar from "./components/Navbar";
 import ParticlesBackground from "./components/ParticlesBackground";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <ParticlesBackground />
       <Navbar />
       <Outlet />
+      <Footer />
     </>
   )
 }
