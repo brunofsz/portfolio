@@ -10,11 +10,32 @@ import {
     SiPhp,
     SiMysql,
     SiMongodb,
-    SiGithub
+    SiGithub,
+    SiPostgresql,
+    SiPython
 } from "react-icons/si";
 import { FaPaperPlane } from "react-icons/fa";
 
 const featuredProjects = [
+    {
+        name: "Soft Bakery 2.0",
+        description: "Full stack bakery management system with real business rules, stock control and sales flow.",
+        tech: [
+            { name: "React", color: "#61dbfb", icon: <SiReact /> },
+            { name: "Node.js", color: "#68a063", icon: <SiNodedotjs /> },
+            { name: "PostgreSQL", color: "#336791", icon: <SiPostgresql /> }
+        ],
+        link: "https://github.com/brunofsz/softBakery-2.0",
+        linkTest: "https://soft-bakery-2-0.vercel.app/"
+    },
+    {
+        name: "Image Converter",
+        description: "Desktop application built in Python to convert images into compatible formats for platforms like Excel and marketplaces.",
+        tech: [
+            { name: "Python", color: "#3776ab", icon: <SiPython /> }
+        ],
+        link: "https://github.com/brunofsz/image-converter"
+    },
     {
         name: "NodeTS Kennel",
         description: "Backend system in Node.js with TypeScript for kennel management.",
